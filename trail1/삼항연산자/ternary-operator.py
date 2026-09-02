@@ -1,3 +1,7 @@
 a=int(input())
 
-print("pass" if a==100 else "failure")
+if a==100:
+    print("pass")
+else:
+    print("failure")
+    
